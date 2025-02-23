@@ -132,7 +132,9 @@ const AizuHackAdvanced = () => {
                   技術的チャレンジ
                 </h3>
                 <p className="text-gray-600">
-                  会津大学の強みである学生の高い技術力を活かし、より挑戦的な課題に取り組むことができます。
+                  会津大学の強みである学生の高い技術力を活かし、
+                  <br />
+                  より挑戦的な課題に取り組むことができます。
                 </p>
               </div>
               <div className="p-6 border-2 border-[#005555]/20 rounded-lg">
