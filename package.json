@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run tailwind && vite",
-    "build": "npm run tailwind && vite build",
-    "lint": "npm run tailwind && eslint .",
-    "preview": "npm run tailwind && vite preview",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
     "tailwind": "tailwindcss build src/index.css -o src/out.css"
   },
   "dependencies": {
