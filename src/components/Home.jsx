@@ -173,18 +173,19 @@ const Home = () => {
                   メンターによるサポート
                 </h3>
                 <p className="text-gray-600">
-                  経験豊富な先輩学生や教員がメンターとして、
+                  経験豊富な先輩学生がメンターとして、
                   開発をサポートします。
                 </p>
               </div>
               <div className="p-6 border-2 border-[#009999]/20 rounded-lg">
                 <h3 className="text-xl font-semibold text-[#009999] mb-3">
-                  充実した開発環境
+                  開発を経験する
                 </h3>
                 <p className="text-gray-600">
-                  会津大学の施設を利用し、 快適な環境で開発に集中できます。
+                  初心者は開発を経験する第一歩として、経験者の方はさらなる経験を積む機会として、
+                  チームでの開発に挑戦します。
                 </p>
-              </div>
+              </div>ï
             </div>
           </section>
 
