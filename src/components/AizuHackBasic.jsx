@@ -122,7 +122,7 @@ const AizuHackBasic = () => {
                   経験豊富なメンター陣
                 </h3>
                 <p className="text-gray-600">
-                  旧・新Zli運営とGDGoC運営メンバーを中心に、<br/>
+                  新旧Zli運営とGDGoC運営メンバーを中心に、<br/>
                   充実したメンターサポートを提供します。
                 </p>
               </div>

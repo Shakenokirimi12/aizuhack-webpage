@@ -111,13 +111,13 @@ const AizuHackAdvanced = () => {
                     <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">
                       ✓
                     </span>
-                    実務レベルの開発経験
+                    開発経験や研究経験
                   </li>
                   <li className="flex items-center">
                     <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">
                       ✓
                     </span>
-                    高度な技術スタックの理解
+                    高度な技術スタックの理解・多言語の理解
                   </li>
                 </ul>
               </div>
