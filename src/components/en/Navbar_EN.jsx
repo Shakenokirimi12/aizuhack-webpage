@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Navbar = ({ re = false }) => {
+const Navbar_EN = ({ re = false }) => {
   return (
     <nav className="w-full bg-white shadow-md py-4 px-6 fixed top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -15,10 +15,10 @@ const Navbar = ({ re = false }) => {
           <span className="opacity-0">Re:AizuHack</span>
         </Link>
         <div className="hidden md:flex space-x-6">
-          <Link to="/ja/aizu-hack-2025" className="text-[#009999] hover:text-gray-600">AizuHack(初心者向け)</Link>
-          <Link to="/ja/re-aizu-hack-2025" className="text-[#009999] hover:text-gray-600">Re:AizuHack(経験者向け)</Link>
-          <Link to="/ja/mentors" className="text-[#009999] hover:text-gray-600">メンター</Link>
-          <Link to="/ja/faq" className="text-[#009999] hover:text-gray-600">FAQ</Link>
+          <Link to="/en/aizu-hack-2025" className="text-[#009999] hover:text-gray-600">AizuHack (For Beginners)</Link>
+          <Link to="/en/re-aizu-hack-2025" className="text-[#009999] hover:text-gray-600">Re:AizuHack (For Experienced)</Link>
+          <Link to="/en/mentors" className="text-[#009999] hover:text-gray-600">Mentors</Link>
+          <Link to="/en/faq" className="text-[#009999] hover:text-gray-600">FAQ</Link>
         </div>
         <button className="md:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#009999]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -30,4 +30,4 @@ const Navbar = ({ re = false }) => {
   );
 };
 
-export default Navbar;
+export default Navbar_EN;

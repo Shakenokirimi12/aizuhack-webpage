@@ -1,4 +1,4 @@
-const Home = () => {
+const Home_EN = () => {
   return (
     <div className="min-h-screen bg-[#009999]/10">
       <div className="w-full pt-24 pb-16">
@@ -11,32 +11,31 @@ const Home = () => {
               Re:Aizu Hack 2025
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
-              学び、挑戦し、成長するハッカソン。
+              Learn, Challenge, and Grow.
             </p>
             <div className="bg-[#009999] text-white inline-block px-6 py-3 rounded-full text-lg font-semibold">
-              2025年6月開催予定
+              Scheduled for June 2025
             </div>
           </div>
 
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
             <h2 className="text-3xl font-bold text-[#009999] mb-6">
-              AizuHackとは？
+              What is AizuHack?
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              会津大学で開催される学生主体のハッカソンイベントです。
-              プログラミングやものづくりに興味がある学生が集まり、
-              チームでプロダクト開発に取り組みます。
-              初心者から上級者まで、すべての学生が参加できます。
+              A student-led hackathon event held at the University of Aizu.
+              Students interested in programming and creation gather to develop products in teams.
+              Open to all students, from beginners to advanced developers.
             </p>
           </section>
 
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
             <h2 className="text-3xl font-bold text-[#009999] mb-6">
-              Aizu Hackで一歩を、Re:Aizu Hackで頂点を
+              Take Your First Step with Aizu Hack, Reach the Summit with Re:Aizu Hack
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="/ja/aizu-hack-2025"
+                href="/en/aizu-hack-2025"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block group cursor-pointer"
@@ -45,14 +44,14 @@ const Home = () => {
                   <div className="text-center mb-6">
                     <h3 className="text-2xl font-bold text-[#009999] mb-2">
                       <span className="text-base font-normal block text-gray-600 mb-1">
-                        初心者向け
+                        For Beginners
                       </span>
                       <span className="text-3xl font-extrabold tracking-wide">
                         Aizu Hack
                       </span>
                     </h3>
                     <p className="text-gray-600 mb-4">
-                      プログラミング初心者の方におすすめ
+                      Recommended for Programming Beginners
                     </p>
                     <div className="inline-block bg-[#009999]/10 text-[#009999] px-4 py-2 rounded-full text-sm font-semibold mb-6">
                       Basic Course
@@ -63,24 +62,24 @@ const Home = () => {
                       <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">
                         ✓
                       </span>
-                      基礎から学べるハンズオン
+                      Hands-on Learning from Basics
                     </li>
                     <li className="flex items-center">
                       <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">
                         ✓
                       </span>
-                      手厚いメンターサポート
+                      Comprehensive Mentor Support
                     </li>
                     <li className="flex items-center">
                       <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">
                         ✓
                       </span>
-                      初心者向けの課題設定
+                      Beginner-Friendly Challenges
                     </li>
                   </ul>
                   <div className="mt-8 text-center">
                     <div className="inline-flex items-center text-[#009999] group-hover:opacity-75 transition-opacity duration-300">
-                      <span className="mr-2">詳細を見る</span>
+                      <span className="mr-2">Learn More</span>
                       <svg
                         className="w-5 h-5"
                         fill="none"
@@ -100,7 +99,7 @@ const Home = () => {
               </a>
 
               <a
-                href="/ja/re-aizu-hack-2025"
+                href="/en/re-aizu-hack-2025" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block group cursor-pointer"
@@ -109,14 +108,14 @@ const Home = () => {
                   <div className="text-center mb-6">
                     <h3 className="text-2xl font-bold text-[#007777] mb-2">
                       <span className="text-base font-normal block text-gray-600 mb-1">
-                        経験者向け
+                        For Experienced Developers
                       </span>
                       <span className="text-3xl font-extrabold tracking-wide">
                         Re:Aizu Hack
                       </span>
                     </h3>
                     <p className="text-gray-600 mb-4">
-                      開発経験をお持ちの方におすすめ
+                      Recommended for Those with Development Experience
                     </p>
                     <div className="inline-block bg-[#007777]/10 text-[#007777] px-4 py-2 rounded-full text-sm font-semibold mb-6">
                       Advanced Course
@@ -127,24 +126,24 @@ const Home = () => {
                       <span className="inline-block w-4 h-4 mr-2 text-[#007777] font-bold">
                         ✓
                       </span>
-                      より高度な技術的チャレンジ
+                      More Advanced Technical Challenges
                     </li>
                     <li className="flex items-center">
                       <span className="inline-block w-4 h-4 mr-2 text-[#007777] font-bold">
                         ✓
                       </span>
-                      自由度の高い開発環境
+                      High Degree of Development Freedom
                     </li>
                     <li className="flex items-center">
                       <span className="inline-block w-4 h-4 mr-2 text-[#007777] font-bold">
                         ✓
                       </span>
-                      企業からの技術メンタリング
+                      Technical Mentoring from Companies
                     </li>
                   </ul>
                   <div className="mt-8 text-center">
                     <div className="inline-flex items-center text-[#007777] group-hover:opacity-75 transition-opacity duration-300">
-                      <span className="mr-2">詳細を見る</span>
+                      <span className="mr-2">Learn More</span>
                       <svg
                         className="w-5 h-5"
                         fill="none"
@@ -166,40 +165,39 @@ const Home = () => {
           </section>
 
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold text-[#009999] mb-6">協賛</h2>
+            <h2 className="text-3xl font-bold text-[#009999] mb-6">Sponsors</h2>
             <h3 className="text-xl font-semibold text-gray-600 mb-3">
               TO BE DETERMINED.....
             </h3>
           </section>
 
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold text-[#009999] mb-6">特徴</h2>
+            <h2 className="text-3xl font-bold text-[#009999] mb-6">Features</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-6 border-2 border-[#009999]/20 rounded-lg">
                 <h3 className="text-xl font-semibold text-[#009999] mb-3">
-                  メンターによるサポート
+                  Mentor Support
                 </h3>
                 <p className="text-gray-600">
-                  経験豊富な先輩学生がメンターとして、 開発をサポートします。
+                  Experienced senior students will support development as mentors.
                 </p>
               </div>
               <div className="p-6 border-2 border-[#009999]/20 rounded-lg">
                 <h3 className="text-xl font-semibold text-[#009999] mb-3">
-                  開発を経験する
+                  Experience Development
                 </h3>
                 <p className="text-gray-600">
-                  初心者は開発を経験する第一歩として、経験者の方はさらなる経験を積む機会として、
-                  チームでの開発に挑戦します。
+                  Beginners will take their first step in development, while experienced developers will gain further experience by challenging team development.
                 </p>
               </div>
             </div>
           </section>
 
           <section className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-[#009999] mb-6">参加方法</h2>
+            <h2 className="text-3xl font-bold text-[#009999] mb-6">How to Participate</h2>
             <div className="text-center">
               <p className="text-gray-600 text-lg mb-6">
-                参加登録は近日開始予定です。 最新情報をお待ちください。
+                Registration will start soon. Please wait for the latest information.
               </p>
               <button
                 className="bg-[#009999] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#008888] transition-colors disabled:opacity-50"
@@ -215,4 +213,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home_EN;
