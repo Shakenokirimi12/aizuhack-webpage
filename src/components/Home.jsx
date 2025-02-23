@@ -11,7 +11,7 @@ const Home = () => {
               Re:Aizu Hack 2025
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
-              会津大学学内ハッカソン
+              学び、挑戦し、成長するハッカソン。
             </p>
             <div className="bg-[#009999] text-white inline-block px-6 py-3 rounded-full text-lg font-semibold">
               2025年6月開催予定
@@ -32,7 +32,7 @@ const Home = () => {
 
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
             <h2 className="text-3xl font-bold text-[#009999] mb-6">
-              始める？それとも極める？
+              Aizu Hackで一歩を、Re:Aizu Hackで頂点を
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
@@ -166,6 +166,13 @@ const Home = () => {
           </section>
 
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
+            <h2 className="text-3xl font-bold text-[#009999] mb-6">協賛</h2>
+            <h3 className="text-xl font-semibold text-gray-600 mb-3">
+              TO BE DETERMINED.....
+            </h3>
+          </section>
+
+          <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
             <h2 className="text-3xl font-bold text-[#009999] mb-6">特徴</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-6 border-2 border-[#009999]/20 rounded-lg">
@@ -173,8 +180,7 @@ const Home = () => {
                   メンターによるサポート
                 </h3>
                 <p className="text-gray-600">
-                  経験豊富な先輩学生がメンターとして、
-                  開発をサポートします。
+                  経験豊富な先輩学生がメンターとして、 開発をサポートします。
                 </p>
               </div>
               <div className="p-6 border-2 border-[#009999]/20 rounded-lg">
