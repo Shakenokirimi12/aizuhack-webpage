@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const AizuHackAdvanced_EN = () => {
+  useEffect(() => {
+    document.title = "Re:Aizu Hack 2025";
+  }, []);
   const ArrowRight = () => (
     <div className="hidden md:flex items-center justify-center">
       <svg
@@ -43,11 +48,13 @@ const AizuHackAdvanced_EN = () => {
             <div className="flex flex-col md:flex-row items-stretch gap-4 md:gap-8 mb-8">
               <div className="p-6 border-2 border-[#005555] rounded-lg flex-1">
                 <h3 className="text-xl font-semibold text-[#005555] mb-3">
-                   ① Ideathon
+                  ① Ideathon
                 </h3>
                 <p className="text-gray-600">
-                  Teams develop ideas based on themes and evaluation criteria.<br />
-                  Select advanced technology stacks and<br />
+                  Teams develop ideas based on themes and evaluation criteria.
+                  <br />
+                  Select advanced technology stacks and
+                  <br />
                   plan implementation strategies.
                 </p>
               </div>
@@ -57,16 +64,20 @@ const AizuHackAdvanced_EN = () => {
                   ② Hack Day
                 </h3>
                 <p className="text-gray-600">
-                  Transform ideas into reality,<br />
-                  creating sophisticated solutions<br />
+                  Transform ideas into reality,
+                  <br />
+                  creating sophisticated solutions
+                  <br />
                   leveraging technical expertise.
                 </p>
               </div>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">
               <p className="text-gray-600 text-sm">
-                * Development work is prohibited until Hack Day.<br />
-                Please use this time for technical validation and prototype design.
+                * Development work is prohibited until Hack Day.
+                <br />
+                Please use this time for technical validation and prototype
+                design.
               </p>
             </div>
           </section>
@@ -83,11 +94,15 @@ const AizuHackAdvanced_EN = () => {
                 <p className="text-gray-600 mb-4">Team participation only.</p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">
+                      ✓
+                    </span>
                     Form teams with technically skilled peers
                   </li>
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">
+                      ✓
+                    </span>
                     Clear role definition within teams
                   </li>
                 </ul>
@@ -97,15 +112,20 @@ const AizuHackAdvanced_EN = () => {
                   Required Skills
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  We're looking for participants with the following experience and skills:
+                  We're looking for participants with the following experience
+                  and skills:
                 </p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">
+                      ✓
+                    </span>
                     Development or research experience
                   </li>
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#005555] font-bold">
+                      ✓
+                    </span>
                     Understanding of advanced tech stacks and multiple languages
                   </li>
                 </ul>
@@ -121,7 +141,8 @@ const AizuHackAdvanced_EN = () => {
                   Technical Challenges
                 </h3>
                 <p className="text-gray-600">
-                  Leverage the high technical capabilities of UoA students<br />
+                  Leverage the high technical capabilities of UoA students
+                  <br />
                   to tackle more challenging problems.
                 </p>
               </div>
@@ -130,7 +151,8 @@ const AizuHackAdvanced_EN = () => {
                   External Impact
                 </h3>
                 <p className="text-gray-600">
-                  Created products will showcase UoA's technical capabilities.<br />
+                  Created products will showcase UoA's technical capabilities.
+                  <br />
                   Opportunities to connect with companies provided.
                 </p>
               </div>
@@ -143,9 +165,11 @@ const AizuHackAdvanced_EN = () => {
             </h2>
             <div className="text-center">
               <p className="text-gray-600 text-lg mb-8">
-                Registration will start soon.<br />
-                Please wait for the latest information.<br />
-                * Detailed participation requirements will be announced when entry opens
+                Registration will start soon.
+                <br />
+                Please wait for the latest information.
+                <br />* Detailed participation requirements will be announced
+                when entry opens
               </p>
               <button
                 className="bg-[#005555] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#004444] transition-colors disabled:opacity-50"

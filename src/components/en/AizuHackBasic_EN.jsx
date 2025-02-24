@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const AizuHackBasic_EN = () => {
+  useEffect(() => {
+    document.title = "Aizu Hack 2025";
+  }, []);
   const ArrowRight = () => (
     <div className="hidden md:flex items-center justify-center">
       <svg className="w-8 h-8 text-[#009999]" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const AizuHackAdvanced = () => {
+  useEffect(() => {
+    document.title = "Re:Aizu Hack 2025";
+  }, []);
   const ArrowRight = () => (
     <div className="hidden md:flex items-center justify-center">
       <svg

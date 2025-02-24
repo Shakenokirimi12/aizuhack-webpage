@@ -7,10 +7,12 @@ import {
 import Home from "./components/Home";
 import AizuHackBasic from "./components/AizuHackBasic";
 import AizuHackAdvanced from "./components/AizuHackAdvanced";
+import Mentors from "./components/Mentors";
 import Home_EN from "./components/en/Home_EN";
 import AizuHackBasic_EN from "./components/en/AizuHackBasic_EN";
 import Navbar_EN from "./components/en/Navbar_EN";
 import AizuHackAdvanced_EN from "./components/en/AizuHackAdvanced_EN";
+import Mentors_EN from "./components/en/Mentors_EN";
 import Navbar from "./components/Navbar";
 
 const AppContent = () => {
@@ -33,12 +35,11 @@ const AppContent = () => {
           <Route path="/ja" element={<Home />} />
           <Route path="/ja/aizu-hack-2025" element={<AizuHackBasic />} />
           <Route path="/ja/re-aizu-hack-2025" element={<AizuHackAdvanced />} />
+          <Route path="/ja/mentors" element={<Mentors />} />
           <Route path="/en" element={<Home_EN />} />
           <Route path="/en/aizu-hack-2025" element={<AizuHackBasic_EN />} />
-          <Route
-            path="/en/re-aizu-hack-2025"
-            element={<AizuHackAdvanced_EN />}
-          />
+          <Route path="/en/re-aizu-hack-2025" element={<AizuHackAdvanced_EN />} />
+          <Route path="/en/mentors" element={<Mentors_EN />} />
         </Routes>
       </main>
     </div>

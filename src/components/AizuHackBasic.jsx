@@ -1,8 +1,23 @@
+import { useEffect } from "react";
+
 const AizuHackBasic = () => {
+  useEffect(() => {
+    document.title = "Aizu Hack 2025";
+  }, []);
   const ArrowRight = () => (
     <div className="hidden md:flex items-center justify-center">
-      <svg className="w-8 h-8 text-[#009999]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7-7 7M3 12h18" />
+      <svg
+        className="w-8 h-8 text-[#009999]"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M14 5l7 7-7 7M3 12h18"
+        />
       </svg>
     </div>
   );
@@ -12,7 +27,9 @@ const AizuHackBasic = () => {
       <main className="w-full pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center py-16 bg-white rounded-lg shadow-lg mb-16">
-            <span className="text-base text-gray-600 block mb-2">初心者向け</span>
+            <span className="text-base text-gray-600 block mb-2">
+              初心者向け
+            </span>
             <h1 className="text-4xl md:text-6xl font-bold text-[#009999] mb-4">
               Aizu Hack
             </h1>
@@ -34,8 +51,10 @@ const AizuHackBasic = () => {
                   ① アイデアソン
                 </h3>
                 <p className="text-gray-600">
-                  テーマと審査基準をもとに、<br/>
-                  チームでアイデアを練り上げます。<br/>
+                  テーマと審査基準をもとに、
+                  <br />
+                  チームでアイデアを練り上げます。
+                  <br />
                   使用する技術の選定も行います。
                 </p>
               </div>
@@ -45,7 +64,8 @@ const AizuHackBasic = () => {
                   ② 勉強会
                 </h3>
                 <p className="text-gray-600">
-                  アイデアの実現に必要な技術について<br/>
+                  アイデアの実現に必要な技術について
+                  <br />
                   メンターから学ぶことができます。
                 </p>
               </div>
@@ -55,7 +75,8 @@ const AizuHackBasic = () => {
                   ③ Hack Day
                 </h3>
                 <p className="text-gray-600">
-                  学んだ技術を活かして開発を行い、<br/>
+                  学んだ技術を活かして開発を行い、
+                  <br />
                   成果物を発表します。
                 </p>
               </div>
@@ -69,9 +90,7 @@ const AizuHackBasic = () => {
           </section>
 
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold text-[#009999] mb-8">
-              参加方法
-            </h2>
+            <h2 className="text-3xl font-bold text-[#009999] mb-8">参加方法</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-6 border-2 border-[#009999] rounded-lg">
                 <h3 className="text-xl font-semibold text-[#009999] mb-3">
@@ -82,11 +101,15 @@ const AizuHackBasic = () => {
                 </p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">
+                      ✓
+                    </span>
                     自分たちでチームを結成
                   </li>
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">
+                      ✓
+                    </span>
                     チームメンバーと協力して開発
                   </li>
                 </ul>
@@ -95,16 +118,18 @@ const AizuHackBasic = () => {
                 <h3 className="text-xl font-semibold text-[#009999] mb-3">
                   個人参加
                 </h3>
-                <p className="text-gray-600 mb-4">
-                  1人での参加も歓迎します。
-                </p>
+                <p className="text-gray-600 mb-4">1人での参加も歓迎します。</p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">
+                      ✓
+                    </span>
                     運営がチーム編成をサポート
                   </li>
                   <li className="flex items-center">
-                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">✓</span>
+                    <span className="inline-block w-4 h-4 mr-2 text-[#009999] font-bold">
+                      ✓
+                    </span>
                     新しい仲間との出会いの機会
                   </li>
                 </ul>
@@ -122,7 +147,8 @@ const AizuHackBasic = () => {
                   経験豊富なメンター陣
                 </h3>
                 <p className="text-gray-600">
-                  新旧Zli運営とGDGoC運営メンバーを中心に、<br/>
+                  新旧Zli運営とGDGoC運営メンバーを中心に、
+                  <br />
                   充実したメンターサポートを提供します。
                 </p>
               </div>
@@ -132,9 +158,10 @@ const AizuHackBasic = () => {
                 </h3>
                 <p className="text-gray-600">
                   10名程度の運営チームが、
-                  参加者の皆さんの開発をサポートします。<br/>
-                  技術的なサポートから、
-                  チーム開発のアドバイスまで、<br/>
+                  参加者の皆さんの開発をサポートします。
+                  <br />
+                  技術的なサポートから、 チーム開発のアドバイスまで、
+                  <br />
                   幅広くフォローします。
                 </p>
               </div>
@@ -147,12 +174,14 @@ const AizuHackBasic = () => {
             </h2>
             <div className="text-center">
               <p className="text-gray-600 text-lg mb-8">
-                参加登録は近日開始予定です。
-                最新情報をお待ちください。
+                参加登録は近日開始予定です。 最新情報をお待ちください。
                 <br />
                 ＊参加条件の詳細は、エントリー開始時に発表いたします
               </p>
-              <button className="bg-[#009999] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#008888] transition-colors disabled:opacity-50" disabled>
+              <button
+                className="bg-[#009999] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#008888] transition-colors disabled:opacity-50"
+                disabled
+              >
                 Coming Soon
               </button>
             </div>

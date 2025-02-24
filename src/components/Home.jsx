@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const Home = () => {
+  useEffect(() => {
+    document.title = "Aizu Hack 2025";
+  }, []);
   return (
     <div className="min-h-screen bg-[#009999]/10">
       <div className="w-full pt-24 pb-16">
