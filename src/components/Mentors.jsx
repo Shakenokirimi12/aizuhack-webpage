@@ -47,32 +47,32 @@ const Mentors = () => {
     },
     {
       name: "佐藤 花子",
-      twitter: "hanako_sato",
-      github: "hanakos",
+      twitter: "",
+      github: "",
       bio: "会津大学大学院在学中。機械学習とWebアプリケーション開発に興味があり、PythonとJavaScriptを使用した開発経験が豊富。複数のAI関連プロジェクトに参加し、技術指導の経験も持つ。",
     },
     {
       name: "鈴木 一郎",
-      twitter: "i_suzuki",
-      github: "suzuki-dev",
+      twitter: "",
+      github: "",
       bio: "会津大学3年生。複数のハッカソンで入賞経験あり。フロントエンド開発を得意とし、UIデザインにも関心がある。学生の視点から参加者をサポートし、モダンな技術スタックの活用を推奨。",
     },
     {
       name: "高橋 美咲",
-      twitter: "misaki_t",
-      github: "misakit",
+      twitter: "",
+      github: "",
       bio: "会津大学卒業生。スタートアップでバックエンド開発を担当。データベース設計とAPIアーキテクチャに精通。チーム開発の経験が豊富で、プロジェクトマネジメントの観点からもアドバイス可能。",
     },
     {
       name: "中村 健一",
-      twitter: "knakamura",
-      github: "kenichi-n",
+      twitter: "",
+      github: "",
       bio: "会津大学4年生。オープンソースプロジェクトにコントリビューターとして参加。モバイルアプリ開発の経験も豊富。GitとGitHubの効果的な活用方法について指導可能。",
     },
     {
       name: "小林 直子",
-      twitter: "naoko_k",
-      github: "naoko-dev",
+      twitter: "",
+      github: "",
       bio: "会津大学大学院修了。現在は技術コンサルタントとして活動。システム設計からデプロイメントまで幅広く対応。クラウドサービスの活用やセキュリティについても詳しい。",
     }
   ];
